@@ -1,0 +1,6 @@
+CREATE TABLE `person` (
+  `person_id` INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(45) NOT NULL,
+  PRIMARY KEY(`person_id`)
+)
+ENGINE = InnoDB;
